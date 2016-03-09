@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Idioma definido -->
+<head> <!--  Indica la cabezera del documanto -->
+	<title>Ejemplo1</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/ejemplo2.css">
+</head>
+<body>
+	<header class="Cabezera">
+		<nav class="Menu"> <!-- Navegacion del sitio -->
+			<ul class="Menu-Lista"> <!-- Lista desordenada -->
+				<li class="Menu-Item">
+					<a href="#Perfil" class="Menu-Link">Perfil</a>
+				</li>
+				<li class="Menu-Item">
+					<a href="#Habilidades" class="Menu-Link">Habilidades</a>
+				</li>
+				<li class="Menu-Item">
+					<a href="#Proy" class="Menu-Link">Proyectos</a>
+				</li>
+				<li class="Menu-Item">
+					<a href="#Contacto" class="Menu-Link">Contacto</a>
+				</li>
+			</ul>
+		</nav>
+		<section>
+			<figure class="Header-Perfil">
+				<img src="imagenes/perfil.png" alt="perfilx" class="Header-Img">  <!-- El alt sirve para
+					indicar una decripcion de la imagen-->
+				<figcaption class="Header-Desc"><!-- Da una leyenda a la imagen -->
+					Imagen Gato
+				</figcaption>
+			</figure>
+		</section>
+	</header>
+		<section id="Perfil" class="Perfil"> <!-- Se le delimita una clase -->
+			<div class="Container">	
+				<h1 class="Titulos">Perfil</h1> <!-- Titulos h1 a 2 -->
+				<!--<h2>Hola 2</h2>
+				<h3>Hola 3</h3>
+				<h4>Hola 4</h4>
+				<h5>Hola 5</h5>
+				<h6>hola 6</h6>-->
+				<p class="Perfil-desc">La idea es comparar los bits más significativos de las 
+				dos columnas. Si el bit en la fila superior es más grande, 
+				la cadena estará en el lenguaje. La cadena no estará en el 
+				lenguaje si el bit en la fila superior es más pequeño. Si los 
+				bits en ambas filas son iguales, se va moviendo </p> <!-- Delimita un parrafo -->
+			</div>
+		</section>
+		<section class="Proyectos"> 
+			<div>
+				<h2 class="Titulos" id="Proy">Proyectos</h2>
+			</div>
+			<article class="Proy-Item"> <!-- Delimita contenido especial -->
+				<figure class="Proy-Cont">
+					<img src="imagenes/1.png" alt="" class="Proy-Img"/>
+					<figcaption class="Proy-Desc">
+						Imagen 1
+					</figcaption>
+				</figure>
+			</article>
+			<article class="Proy-Item"> <!-- Delimita contenido especial -->
+				<figure class="Proy-Cont">
+					<img src="imagenes/2.png" alt=""/>
+					<figcaption class="Proy-Desc">
+						Imagen 2
+					</figcaption>
+				</figure>
+			</article>
+			<article class="Proy-Item"> <!-- Delimita contenido especial -->
+				<figure class="Proy-Cont">
+					<img src="imagenes/3.png" alt=""/>
+					<figcaption class="Proy-Desc">
+						Imagen 3
+					</figcaption>
+				</figure>
+			</article>
+			<article class="Proy-Item"> <!-- Delimita contenido especial -->
+				<figure class="Proy-Cont">
+					<img src="imagenes/4.png" alt=""/>
+					<figcaption class="Proy-Desc">
+						Imagen 4
+					</figcaption>
+				</figure>
+			</article>
+		</section>
+		<footer class="Footer">
+			<div class="Footer-redes">
+				<a class="FooterLink" href="https://www.facebook.com">Facebook</a>
+				<a class="FooterLink" href="https://www.facebook.com" target="_blank">Facebook en otra ventana</a>
+			</div>
+		</footer>
+</body>
+</html>
